@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  // "plugins": [
+  // "transform-decorators-legacy",
+  // [
+  //   "import",
+  //   {
+  //     "libraryName": "antd",
+  //     "style": true
+  //   }
+  // ]
+  // ]
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "dva": "dva-no-router"
+        }
+      }
+    ]
+  ]
+}

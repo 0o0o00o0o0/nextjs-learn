@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport 'antd/dist/antd.css';\nimport React from 'react';\nexport default function MyApp({\n  Component,\n  pageProps\n}) {\n  return __jsx(Component, pageProps);\n}","map":null,"metadata":{},"sourceType":"module"}
